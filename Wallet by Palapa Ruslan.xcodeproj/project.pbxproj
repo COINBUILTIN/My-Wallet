@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C17AC21A35E2C500E27EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C17AC11A35E2C500E27EED /* main.m */; };
+		04C17AC51A35E2C500E27EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C17AC41A35E2C500E27EED /* AppDelegate.m */; };
+		04C17AC81A35E2C500E27EED /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C17AC71A35E2C500E27EED /* FirstViewController.m */; };
+		2207603C1A75CAF00022AEB5 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2207603B1A75CAF00022AEB5 /* SettingsTableViewController.m */; };
+		2207603F1A75D0780022AEB5 /* CurrenciesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2207603E1A75D0780022AEB5 /* CurrenciesTableViewController.m */; };
+		220760421A76CE510022AEB5 /* BillsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220760411A76CE510022AEB5 /* BillsTableViewController.m */; };
+		223428CB1A402D4400AFE40B /* AddBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 223428CA1A402D4400AFE40B /* AddBillViewController.m */; };
+		225392BE1A4491AF00EF3BC7 /* AddPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 225392BD1A4491AF00EF3BC7 /* AddPaymentViewController.m */; };
+		2259B0631A82567400BBA0EB /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2259B0621A82567400BBA0EB /* Entitlements.plist */; };
+		2259B09A1A83155700BBA0EB /* ReportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2259B0991A83155700BBA0EB /* ReportsViewController.m */; };
+		226ABAB21A37111C007137BC /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 226ABAB01A37111C007137BC /* CustomTableViewCell.m */; };
+		226DD7FD1A4CAC11003A3593 /* OperationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 226DD7FC1A4CAC11003A3593 /* OperationsTableViewController.m */; };
+		22810A4E1A4F59DE002342B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22810A4C1A4F59DE002342B1 /* Main.storyboard */; };
+		22810A581A503380002342B1 /* AddTransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22810A571A503380002342B1 /* AddTransferViewController.m */; };
+		22A98B3C1B984DF5005C3E49 /* Bill-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B2E1B984DF5005C3E49 /* Bill-22.png */; };
+		22A98B3D1B984DF5005C3E49 /* Check Book-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B2F1B984DF5005C3E49 /* Check Book-22.png */; };
+		22A98B3E1B984DF5005C3E49 /* Edit-22 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B301B984DF5005C3E49 /* Edit-22 (1).png */; };
+		22A98B3F1B984DF5005C3E49 /* History-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B311B984DF5005C3E49 /* History-22.png */; };
+		22A98B401B984DF5005C3E49 /* icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B321B984DF5005C3E49 /* icon-29@2x.png */; };
+		22A98B411B984DF5005C3E49 /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B331B984DF5005C3E49 /* icon-40@2x.png */; };
+		22A98B421B984DF5005C3E49 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B341B984DF5005C3E49 /* icon-60@2x.png */; };
+		22A98B431B984DF5005C3E49 /* Info-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B351B984DF5005C3E49 /* Info-22.png */; };
+		22A98B441B984DF5005C3E49 /* Minus-32 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B361B984DF5005C3E49 /* Minus-32 (1).png */; };
+		22A98B451B984DF5005C3E49 /* Plus-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B371B984DF5005C3E49 /* Plus-22.png */; };
+		22A98B461B984DF5005C3E49 /* Plus-32 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B381B984DF5005C3E49 /* Plus-32 (1).png */; };
+		22A98B471B984DF5005C3E49 /* Report Card-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B391B984DF5005C3E49 /* Report Card-22.png */; };
+		22A98B481B984DF5005C3E49 /* Settings-22.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B3A1B984DF5005C3E49 /* Settings-22.png */; };
+		22A98B491B984DF5005C3E49 /* Wallet-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A98B3B1B984DF5005C3E49 /* Wallet-80.png */; };
+		22C67BFE1A6C7F9E00FDB141 /* Payment.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C67BFD1A6C7F9E00FDB141 /* Payment.m */; };
+		22C67C011A6D7B3D00FDB141 /* Bills.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C67C001A6D7B3D00FDB141 /* Bills.m */; };
+		22E55AC71A9FE3950095B8C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E55AC61A9FE3950095B8C2 /* Images.xcassets */; };
+		22E613ED1A50B8C600EAC27F /* PaymentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E613EC1A50B8C600EAC27F /* PaymentTableViewController.m */; };
+		22F055AA1A39B49C0060B12D /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22F055A81A39B49C0060B12D /* CoreDataProject.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04C17ABC1A35E2C500E27EED /* Wallet by Palapa Ruslan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wallet by Palapa Ruslan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C17AC01A35E2C500E27EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C17AC11A35E2C500E27EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C17AC31A35E2C500E27EED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C17AC41A35E2C500E27EED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C17AC61A35E2C500E27EED /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		04C17AC71A35E2C500E27EED /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		04C17ADD1A35E2C500E27EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C17ADE1A35E2C500E27EED /* MyWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWalletTests.m; sourceTree = "<group>"; };
+		2207603A1A75CAF00022AEB5 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		2207603B1A75CAF00022AEB5 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		2207603D1A75D0780022AEB5 /* CurrenciesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrenciesTableViewController.h; sourceTree = "<group>"; };
+		2207603E1A75D0780022AEB5 /* CurrenciesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrenciesTableViewController.m; sourceTree = "<group>"; };
+		220760401A76CE510022AEB5 /* BillsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillsTableViewController.h; sourceTree = "<group>"; };
+		220760411A76CE510022AEB5 /* BillsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillsTableViewController.m; sourceTree = "<group>"; };
+		223428C91A402D4400AFE40B /* AddBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBillViewController.h; sourceTree = "<group>"; };
+		223428CA1A402D4400AFE40B /* AddBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBillViewController.m; sourceTree = "<group>"; };
+		225392BC1A4491AF00EF3BC7 /* AddPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPaymentViewController.h; sourceTree = "<group>"; };
+		225392BD1A4491AF00EF3BC7 /* AddPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPaymentViewController.m; sourceTree = "<group>"; };
+		2259B0621A82567400BBA0EB /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		2259B0981A83155700BBA0EB /* ReportsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportsViewController.h; sourceTree = "<group>"; };
+		2259B0991A83155700BBA0EB /* ReportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportsViewController.m; sourceTree = "<group>"; };
+		226ABAAF1A37111C007137BC /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		226ABAB01A37111C007137BC /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		226DD7FB1A4CAC11003A3593 /* OperationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationsTableViewController.h; sourceTree = "<group>"; };
+		226DD7FC1A4CAC11003A3593 /* OperationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationsTableViewController.m; sourceTree = "<group>"; };
+		22810A4D1A4F59DE002342B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MyWallet/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22810A561A503380002342B1 /* AddTransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTransferViewController.h; sourceTree = "<group>"; };
+		22810A571A503380002342B1 /* AddTransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTransferViewController.m; sourceTree = "<group>"; };
+		22A98B2E1B984DF5005C3E49 /* Bill-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bill-22.png"; sourceTree = "<group>"; };
+		22A98B2F1B984DF5005C3E49 /* Check Book-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Check Book-22.png"; sourceTree = "<group>"; };
+		22A98B301B984DF5005C3E49 /* Edit-22 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Edit-22 (1).png"; sourceTree = "<group>"; };
+		22A98B311B984DF5005C3E49 /* History-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "History-22.png"; sourceTree = "<group>"; };
+		22A98B321B984DF5005C3E49 /* icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-29@2x.png"; sourceTree = "<group>"; };
+		22A98B331B984DF5005C3E49 /* icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		22A98B341B984DF5005C3E49 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		22A98B351B984DF5005C3E49 /* Info-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Info-22.png"; sourceTree = "<group>"; };
+		22A98B361B984DF5005C3E49 /* Minus-32 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minus-32 (1).png"; sourceTree = "<group>"; };
+		22A98B371B984DF5005C3E49 /* Plus-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-22.png"; sourceTree = "<group>"; };
+		22A98B381B984DF5005C3E49 /* Plus-32 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-32 (1).png"; sourceTree = "<group>"; };
+		22A98B391B984DF5005C3E49 /* Report Card-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Report Card-22.png"; sourceTree = "<group>"; };
+		22A98B3A1B984DF5005C3E49 /* Settings-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-22.png"; sourceTree = "<group>"; };
+		22A98B3B1B984DF5005C3E49 /* Wallet-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wallet-80.png"; sourceTree = "<group>"; };
+		22C67BFC1A6C7F9E00FDB141 /* Payment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payment.h; sourceTree = "<group>"; };
+		22C67BFD1A6C7F9E00FDB141 /* Payment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Payment.m; sourceTree = "<group>"; };
+		22C67BFF1A6D7B3D00FDB141 /* Bills.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bills.h; sourceTree = "<group>"; };
+		22C67C001A6D7B3D00FDB141 /* Bills.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bills.m; sourceTree = "<group>"; };
+		22E55AC61A9FE3950095B8C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22E613EB1A50B8C600EAC27F /* PaymentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentTableViewController.h; sourceTree = "<group>"; };
+		22E613EC1A50B8C600EAC27F /* PaymentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentTableViewController.m; sourceTree = "<group>"; };
+		22F055A91A39B49C0060B12D /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C17AB91A35E2C500E27EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C17AB31A35E2C500E27EED = {
+			isa = PBXGroup;
+			children = (
+				2259B0621A82567400BBA0EB /* Entitlements.plist */,
+				04C17ABE1A35E2C500E27EED /* MyWallet */,
+				04C17ADB1A35E2C500E27EED /* MyWalletTests */,
+				04C17ABD1A35E2C500E27EED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C17ABD1A35E2C500E27EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C17ABC1A35E2C500E27EED /* Wallet by Palapa Ruslan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C17ABE1A35E2C500E27EED /* MyWallet */ = {
+			isa = PBXGroup;
+			children = (
+				22A98B2D1B984DF5005C3E49 /* Images */,
+				2259B0971A83152200BBA0EB /* Reports */,
+				220760391A75CAB10022AEB5 /* Settings */,
+				223428BD1A3F87CF00AFE40B /* Bills */,
+				04C17AC31A35E2C500E27EED /* AppDelegate.h */,
+				22810A4C1A4F59DE002342B1 /* Main.storyboard */,
+				04C17AC41A35E2C500E27EED /* AppDelegate.m */,
+				04C17ABF1A35E2C500E27EED /* Supporting Files */,
+				226ABAAF1A37111C007137BC /* CustomTableViewCell.h */,
+				226ABAB01A37111C007137BC /* CustomTableViewCell.m */,
+				22F055A81A39B49C0060B12D /* CoreDataProject.xcdatamodeld */,
+				22E55AC61A9FE3950095B8C2 /* Images.xcassets */,
+			);
+			path = MyWallet;
+			sourceTree = "<group>";
+		};
+		04C17ABF1A35E2C500E27EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C17AC01A35E2C500E27EED /* Info.plist */,
+				04C17AC11A35E2C500E27EED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C17ADB1A35E2C500E27EED /* MyWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C17ADE1A35E2C500E27EED /* MyWalletTests.m */,
+				04C17ADC1A35E2C500E27EED /* Supporting Files */,
+			);
+			path = MyWalletTests;
+			sourceTree = "<group>";
+		};
+		04C17ADC1A35E2C500E27EED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C17ADD1A35E2C500E27EED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220760391A75CAB10022AEB5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				2207603A1A75CAF00022AEB5 /* SettingsTableViewController.h */,
+				2207603B1A75CAF00022AEB5 /* SettingsTableViewController.m */,
+				2207603D1A75D0780022AEB5 /* CurrenciesTableViewController.h */,
+				2207603E1A75D0780022AEB5 /* CurrenciesTableViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		223428BD1A3F87CF00AFE40B /* Bills */ = {
+			isa = PBXGroup;
+			children = (
+				225392BB1A448F1100EF3BC7 /* Model */,
+				226DD7FB1A4CAC11003A3593 /* OperationsTableViewController.h */,
+				226DD7FC1A4CAC11003A3593 /* OperationsTableViewController.m */,
+				04C17AC61A35E2C500E27EED /* FirstViewController.h */,
+				04C17AC71A35E2C500E27EED /* FirstViewController.m */,
+				223428C91A402D4400AFE40B /* AddBillViewController.h */,
+				223428CA1A402D4400AFE40B /* AddBillViewController.m */,
+				225392BC1A4491AF00EF3BC7 /* AddPaymentViewController.h */,
+				225392BD1A4491AF00EF3BC7 /* AddPaymentViewController.m */,
+				22810A561A503380002342B1 /* AddTransferViewController.h */,
+				22810A571A503380002342B1 /* AddTransferViewController.m */,
+				22E613EB1A50B8C600EAC27F /* PaymentTableViewController.h */,
+				22E613EC1A50B8C600EAC27F /* PaymentTableViewController.m */,
+				220760401A76CE510022AEB5 /* BillsTableViewController.h */,
+				220760411A76CE510022AEB5 /* BillsTableViewController.m */,
+			);
+			name = Bills;
+			sourceTree = "<group>";
+		};
+		225392BB1A448F1100EF3BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22C67BFC1A6C7F9E00FDB141 /* Payment.h */,
+				22C67BFD1A6C7F9E00FDB141 /* Payment.m */,
+				22C67BFF1A6D7B3D00FDB141 /* Bills.h */,
+				22C67C001A6D7B3D00FDB141 /* Bills.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2259B0971A83152200BBA0EB /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				2259B0981A83155700BBA0EB /* ReportsViewController.h */,
+				2259B0991A83155700BBA0EB /* ReportsViewController.m */,
+			);
+			name = Reports;
+			sourceTree = "<group>";
+		};
+		22A98B2D1B984DF5005C3E49 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				22A98B2E1B984DF5005C3E49 /* Bill-22.png */,
+				22A98B2F1B984DF5005C3E49 /* Check Book-22.png */,
+				22A98B301B984DF5005C3E49 /* Edit-22 (1).png */,
+				22A98B311B984DF5005C3E49 /* History-22.png */,
+				22A98B321B984DF5005C3E49 /* icon-29@2x.png */,
+				22A98B331B984DF5005C3E49 /* icon-40@2x.png */,
+				22A98B341B984DF5005C3E49 /* icon-60@2x.png */,
+				22A98B351B984DF5005C3E49 /* Info-22.png */,
+				22A98B361B984DF5005C3E49 /* Minus-32 (1).png */,
+				22A98B371B984DF5005C3E49 /* Plus-22.png */,
+				22A98B381B984DF5005C3E49 /* Plus-32 (1).png */,
+				22A98B391B984DF5005C3E49 /* Report Card-22.png */,
+				22A98B3A1B984DF5005C3E49 /* Settings-22.png */,
+				22A98B3B1B984DF5005C3E49 /* Wallet-80.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C17ABB1A35E2C500E27EED /* Wallet by Palapa Ruslan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C17AE21A35E2C500E27EED /* Build configuration list for PBXNativeTarget "Wallet by Palapa Ruslan" */;
+			buildPhases = (
+				04C17AB81A35E2C500E27EED /* Sources */,
+				04C17AB91A35E2C500E27EED /* Frameworks */,
+				04C17ABA1A35E2C500E27EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wallet by Palapa Ruslan";
+			productName = MyWallet;
+			productReference = 04C17ABC1A35E2C500E27EED /* Wallet by Palapa Ruslan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C17AB41A35E2C500E27EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Palapa Ruslan";
+				TargetAttributes = {
+					04C17ABB1A35E2C500E27EED = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 04C17AB71A35E2C500E27EED /* Build configuration list for PBXProject "Wallet by Palapa Ruslan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C17AB31A35E2C500E27EED;
+			productRefGroup = 04C17ABD1A35E2C500E27EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C17ABB1A35E2C500E27EED /* Wallet by Palapa Ruslan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C17ABA1A35E2C500E27EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2259B0631A82567400BBA0EB /* Entitlements.plist in Resources */,
+				22E55AC71A9FE3950095B8C2 /* Images.xcassets in Resources */,
+				22A98B471B984DF5005C3E49 /* Report Card-22.png in Resources */,
+				22A98B451B984DF5005C3E49 /* Plus-22.png in Resources */,
+				22A98B3C1B984DF5005C3E49 /* Bill-22.png in Resources */,
+				22810A4E1A4F59DE002342B1 /* Main.storyboard in Resources */,
+				22A98B441B984DF5005C3E49 /* Minus-32 (1).png in Resources */,
+				22A98B411B984DF5005C3E49 /* icon-40@2x.png in Resources */,
+				22A98B3D1B984DF5005C3E49 /* Check Book-22.png in Resources */,
+				22A98B421B984DF5005C3E49 /* icon-60@2x.png in Resources */,
+				22A98B461B984DF5005C3E49 /* Plus-32 (1).png in Resources */,
+				22A98B491B984DF5005C3E49 /* Wallet-80.png in Resources */,
+				22A98B401B984DF5005C3E49 /* icon-29@2x.png in Resources */,
+				22A98B481B984DF5005C3E49 /* Settings-22.png in Resources */,
+				22A98B3E1B984DF5005C3E49 /* Edit-22 (1).png in Resources */,
+				22A98B3F1B984DF5005C3E49 /* History-22.png in Resources */,
+				22A98B431B984DF5005C3E49 /* Info-22.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C17AB81A35E2C500E27EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2207603C1A75CAF00022AEB5 /* SettingsTableViewController.m in Sources */,
+				220760421A76CE510022AEB5 /* BillsTableViewController.m in Sources */,
+				04C17AC51A35E2C500E27EED /* AppDelegate.m in Sources */,
+				225392BE1A4491AF00EF3BC7 /* AddPaymentViewController.m in Sources */,
+				2207603F1A75D0780022AEB5 /* CurrenciesTableViewController.m in Sources */,
+				223428CB1A402D4400AFE40B /* AddBillViewController.m in Sources */,
+				22C67BFE1A6C7F9E00FDB141 /* Payment.m in Sources */,
+				22C67C011A6D7B3D00FDB141 /* Bills.m in Sources */,
+				04C17AC81A35E2C500E27EED /* FirstViewController.m in Sources */,
+				22810A581A503380002342B1 /* AddTransferViewController.m in Sources */,
+				226ABAB21A37111C007137BC /* CustomTableViewCell.m in Sources */,
+				22E613ED1A50B8C600EAC27F /* PaymentTableViewController.m in Sources */,
+				04C17AC21A35E2C500E27EED /* main.m in Sources */,
+				2259B09A1A83155700BBA0EB /* ReportsViewController.m in Sources */,
+				22F055AA1A39B49C0060B12D /* CoreDataProject.xcdatamodeld in Sources */,
+				226DD7FD1A4CAC11003A3593 /* OperationsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22810A4C1A4F59DE002342B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22810A4D1A4F59DE002342B1 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C17AE01A35E2C500E27EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C17AE11A35E2C500E27EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C17AE31A35E2C500E27EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				INFOPLIST_FILE = MyWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Wallet by Palapa Ruslan";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C17AE41A35E2C500E27EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = MyWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Wallet by Palapa Ruslan";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C17AB71A35E2C500E27EED /* Build configuration list for PBXProject "Wallet by Palapa Ruslan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C17AE01A35E2C500E27EED /* Debug */,
+				04C17AE11A35E2C500E27EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C17AE21A35E2C500E27EED /* Build configuration list for PBXNativeTarget "Wallet by Palapa Ruslan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C17AE31A35E2C500E27EED /* Debug */,
+				04C17AE41A35E2C500E27EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22F055A81A39B49C0060B12D /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22F055A91A39B49C0060B12D /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = 22F055A91A39B49C0060B12D /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04C17AB41A35E2C500E27EED /* Project object */;
+}
